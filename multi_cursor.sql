@@ -27,7 +27,6 @@ DISABLE TRIGGER [dbo].[EventStreamUserPermissionTrigger] ON [dbo].[UserPermissio
 
 
 
-// Its just for edit 
 
 
 
