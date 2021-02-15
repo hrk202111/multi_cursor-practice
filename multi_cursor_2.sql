@@ -3,7 +3,7 @@ IF EXISTS( SELECT 1 FROM INFORMATION_SCHEMA. TABLES WHERE TABLE_NAME = 'Comment'
         @tableName = N'Commment',
         @triggerName = N'EventStreamItemsCommentTrigger',
         @msgTypeName = N'comment';
-        
+     
     DISABLE TRIGGER [dbo].[usp_eventStreamTrigger] ON [dbo].[Comment];
 GO
 
